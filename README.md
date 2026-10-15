@@ -5,19 +5,6 @@ A small, fully typed React application for collecting customer feedback. Users r
 **🔗 Live demo:** [02-react-cafe-mu-sooty.vercel.app](https://02-react-cafe-mu-sooty.vercel.app/)
 **📦 Repository:** [github.com/mrkorzun/02-react-cafe](https://github.com/mrkorzun/02-react-cafe)
 
----
-
-## Features
-
-- **One-click voting** — three rating options update the statistics in real time.
-- **Live statistics** — total number of votes and the share of positive feedback (%).
-- **Conditional rendering** — a "No feedback yet" message is shown until the first vote; statistics appear afterwards.
-- **Smart Reset button** — rendered only when there is something to reset.
-- **Derived state** — totals and percentages are computed from state, not stored in it (single source of truth, no sync bugs).
-- **Cross-browser consistency** — styles are normalized with `modern-normalize`.
-
-## Tech Stack & Tools
-
 ![React](https://img.shields.io/badge/React_19-20232A?logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-9135FF?logo=vite&logoColor=FFD62E)
@@ -36,6 +23,19 @@ A small, fully typed React application for collecting customer feedback. Users r
 ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?logo=visualstudiocode&logoColor=white)
+
+---
+
+## Features
+
+- **One-click voting** — three rating options update the statistics in real time.
+- **Live statistics** — total number of votes and the share of positive feedback (%).
+- **Conditional rendering** — a "No feedback yet" message is shown until the first vote; statistics appear afterwards.
+- **Smart Reset button** — rendered only when there is something to reset.
+- **Derived state** — totals and percentages are computed from state, not stored in it (single source of truth, no sync bugs).
+- **Cross-browser consistency** — styles are normalized with `modern-normalize`.
+
+## Tech Stack
 
 | Area         | Tools                                                                  |
 | ------------ | ---------------------------------------------------------------------- |
