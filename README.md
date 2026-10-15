@@ -1,10 +1,3 @@
-# ☕ Sip Happens Café — Feedback Widget
-
-A small, fully typed React application for collecting customer feedback. Users rate the café's service as **Good**, **Neutral** or **Bad**, and the app instantly calculates and displays live statistics.
-
-**🔗 Live demo:** [02-react-cafe-mu-sooty.vercel.app](https://02-react-cafe-mu-sooty.vercel.app/)
-**📦 Repository:** [github.com/mrkorzun/02-react-cafe](https://github.com/mrkorzun/02-react-cafe)
-
 ![React](https://img.shields.io/badge/React_19-20232A?logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-9135FF?logo=vite&logoColor=FFD62E)
@@ -23,6 +16,13 @@ A small, fully typed React application for collecting customer feedback. Users r
 ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?logo=visualstudiocode&logoColor=white)
+
+# ☕ Sip Happens Café — Feedback Widget
+
+A small, fully typed React application for collecting customer feedback. Users rate the café's service as **Good**, **Neutral** or **Bad**, and the app instantly calculates and displays live statistics.
+
+**🔗 Live demo:** [02-react-cafe-mu-sooty.vercel.app](https://02-react-cafe-mu-sooty.vercel.app/)
+**📦 Repository:** [github.com/mrkorzun/02-react-cafe](https://github.com/mrkorzun/02-react-cafe)
 
 ---
 
