@@ -51,13 +51,20 @@ A small, fully typed React application for collecting customer feedback. Users r
 The app follows a **"smart container, presentational children"** pattern: all state lives in `App`, child components receive data and callbacks through typed props.
 
 ```
-App  (state: votes, handlers: handleVote / resetVotes)
-├── CafeInfo        — static header and description
-├── VoteOptions     — voting buttons + conditional Reset   ← onVote, onReset, canReset
-├── VoteStats       — statistics block                     ← votes, totalVotes, positiveRate
-└── Notification    — empty-state message (when totalVotes === 0)
-
+App            state: votes
+├── CafeInfo       header
+├── VoteOptions    buttons
+├── VoteStats      statistics
+└── Notification   empty state
 ```
+
+| Component      | Role                                            | Props                                 |
+| -------------- | ----------------------------------------------- | ------------------------------------- |
+| `App`          | Holds `votes` state, `handleVote`, `resetVotes` | —                                     |
+| `CafeInfo`     | Static header and description                   | —                                     |
+| `VoteOptions`  | Voting buttons + conditional Reset              | `onVote`, `onReset`, `canReset`       |
+| `VoteStats`    | Statistics block                                | `votes`, `totalVotes`, `positiveRate` |
+| `Notification` | Shown when `totalVotes === 0`                   | —                                     |
 
 **Data flow:** button click → `onVote(type)` → state update in `App` → recalculated `totalVotes` / `positiveRate` → re-render of `VoteStats`.
 
