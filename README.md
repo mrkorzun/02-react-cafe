@@ -56,6 +56,7 @@ App  (state: votes, handlers: handleVote / resetVotes)
 ├── VoteOptions     — voting buttons + conditional Reset   ← onVote, onReset, canReset
 ├── VoteStats       — statistics block                     ← votes, totalVotes, positiveRate
 └── Notification    — empty-state message (when totalVotes === 0)
+
 ```
 
 **Data flow:** button click → `onVote(type)` → state update in `App` → recalculated `totalVotes` / `positiveRate` → re-render of `VoteStats`.
