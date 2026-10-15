@@ -16,7 +16,26 @@ A small, fully typed React application for collecting customer feedback. Users r
 - **Derived state** — totals and percentages are computed from state, not stored in it (single source of truth, no sync bugs).
 - **Cross-browser consistency** — styles are normalized with `modern-normalize`.
 
-## Tech Stack
+## Tech Stack & Tools
+
+![React](https://img.shields.io/badge/React_19-20232A?logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-9135FF?logo=vite&logoColor=FFD62E)
+![CSS Modules](https://img.shields.io/badge/CSS_Modules-000000?logo=cssmodules&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![clsx](https://img.shields.io/badge/clsx-555555)
+![modern-normalize](https://img.shields.io/badge/modern--normalize-555555)
+![React Compiler](https://img.shields.io/badge/React_Compiler-087EA4?logo=react&logoColor=white)
+![Babel](https://img.shields.io/badge/Babel-F9DC3E?logo=babel&logoColor=black)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?logo=visualstudiocode&logoColor=white)
 
 | Area         | Tools                                                                  |
 | ------------ | ---------------------------------------------------------------------- |
